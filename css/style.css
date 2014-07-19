@@ -1,0 +1,45 @@
+/* CSS Document */
+
+body {
+	
+	background: #EBE8E1;
+	font-family: raleway, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	color: #373E42;
+	
+}
+
+div {
+	text-align: center;
+}
+
+
+h1, h2 {
+	color: #E5746B;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 6px 6px 10px #F6C4BA;
+	font-family: lobster, sans-serif;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.pic {
+	border: #373E42 2px dashed;
+	height:500px;
+	width: auto;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+a:visited {
+	color: #7B8E8F;
+}
+a:hover {
+	color: #E5746B;
+	text-decoration: line-through;
+}
