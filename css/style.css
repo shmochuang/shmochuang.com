@@ -2,8 +2,9 @@
 
 body {
 	
-	background: #EBE8E1;
+	background: #FEE9E8;
 	font-family: raleway, sans-serif;
+	font-size: 18px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -17,10 +18,16 @@ div {
 
 
 h1, h2 {
-	color: #E5746B;
+	color: #F68395;
 	text-align: center;
-	text-shadow: 6px 6px 10px #F6C4BA;
+	text-shadow: 5px 5px 1px #FABAC0;
 	font-family: lobster, sans-serif;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 30px;
 }
 
 img {
@@ -28,17 +35,17 @@ img {
 }
 
 .pic {
-	border: #373E42 2px dashed;
+	border: #06c6f6 2px dashed;
 	height:500px;
 	width: auto;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
 }
 
-a:visited {
-	color: #7B8E8F;
+a{
+	color: #06c6f6;
 }
 a:hover {
-	color: #E5746B;
+	color: #A5D9C2;
 	text-decoration: line-through;
 }
