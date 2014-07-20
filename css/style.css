@@ -27,16 +27,6 @@ h2 {
 	font-size: 30px;
 }
 
-img {
-	vertical-align: middle;
-}
-
-.pic {
-	border: #06c6f6 2px dashed;
-	height:500px;
-	width: auto;
-}
-
 a{
 	color: #06c6f6;
 }
@@ -44,3 +34,46 @@ a:hover {
 	color: #A5D9C2;
 	text-decoration: line-through;
 }
+
+
+
+#pic {
+	border: #06c6f6 2px dashed;
+	height:500px;
+	width: 375px;
+	padding: 2px;
+}
+#pic:hover {
+	border: #A5D9C2 3px dotted;
+}
+
+#pic-a {
+	display: inline-block;
+	position: relative;
+}
+
+span.about-me-txt {
+	background: rgba(0,0,0,0.5);
+	color: #F68395;
+	display: table;
+	height: 500px;
+	width: 375px;
+	position: absolute;
+	top: 0;	
+	opacity: 0;
+}
+span.about-me-txt span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+#pic-a:hover span.about-me-txt {
+	opacity: 1;
+}
+
+
+#projects {
+	padding: 10% 0;
+}
+
