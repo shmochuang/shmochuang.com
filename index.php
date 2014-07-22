@@ -9,10 +9,12 @@
     <link rel= "stylesheet" type="text/css" href="css/style.css"> <!-- link to custom stylesheet -->
     <link href='http://fonts.googleapis.com/css?family=Raleway|Lobster' rel='stylesheet' type='text/css'> <!-- link to fonts -->
 
+    
+
 </head>
 <body>
     <div class="row"> 
-      <h1>Shmo</h1>
+      <h1>Shmo <img src="images/shmostarblue.png" alt="star image"></h1>
     </div> <!-- end header row -->
     
     <div class="row">
